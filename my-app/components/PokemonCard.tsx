@@ -92,8 +92,8 @@ const PokemonCard:React.FC<Props> = ({pokemon}) => {
             }}
             animate = {isFlipped ? "back": "front"}
             >
-                <div className="absolute top-0 left-0 text-white font-bold p-3 text-2xl">
-                    {!isFlipped && formatPokemonNumber(pokemonNumber) || ""}
+                <div className="absolute top-0 left-0 text-white font-bold p-3 text-5xl">
+                    {!isFlipped && formatPokemonNumber(pokemonNumber || "")}
                 </div>
                 {!isFlipped ? (
                     <Image
