@@ -3,10 +3,10 @@ import LoadPokemon from "@/components/LoadPokemon";
 import Search from "@/components/Search";
 
 
-const Page = async({
+const Page = async ({
   searchParams,
 }: {
-  searchParam: {
+  searchParams: {
     [key: string]: string | string[] | undefined;
   };
 }) => {
