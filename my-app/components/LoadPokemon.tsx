@@ -23,9 +23,6 @@ const LoadPokemon = ({search, initialPokemon}:
         new Promise((resolve) =>setTimeout(resolve, ms));
 
 
-
-
-
     const loadMorePokemon = async () => {
         setLoading(true)
         await delay(1000);

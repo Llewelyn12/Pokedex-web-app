@@ -3,8 +3,6 @@ import { useAnimation, motion } from "framer-motion";
 import Image from "next/image";
 import Type from "./Type";
 
-
-
 export interface Pokemon {
     url: string;
     name: string;
